@@ -1,1 +1,0 @@
-"use strict";var customFileField=function(t){var e=jQuery(this).prev("label"),l=e.html(),i="";this.files&&this.files.length>1?i=(this.getAttribute("data-multiple-caption")||"").replace("{count}",this.files.length):t.target.value&&(i=t.target.value.split("\\").pop()),i?e.find("span").html(i):e.html(l)};
